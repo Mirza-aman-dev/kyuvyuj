@@ -1,2 +1,5 @@
-[functions]
-  directory = "src"
+[build]
+  functions = "src"
+
+[context.production.environment]
+  NODE_ENV = "production"
